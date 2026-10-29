@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 42px;
+    cursor: pointer;
+}
+
+.link-menu {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #17233D;
+    margin-right: 30px;
+}
+.link-menu:hover{
+    opacity: .6;
+}
+.link-menu:active{
+    opacity: .8;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .6;
+}
+button:active{
+    opacity: .8;
+}
+
+.img-logo {
+    margin: 180px 0 0 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+.Learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+.Learn:hover{
+    opacity: .6;
+}
+.Learn:active{
+    opacity: .8;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: none;
+    }
+
+    .img-logo {
+        width: 312px;
+        height: 288px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section{
+        text-align: center;
+    }
+    h1 {
+        width: 408px;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 85px;
+        color: #161A49;
+        margin: 55px 0px 0 -66px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #4B505A;
+        width: 270px;
+        margin: 18px 0px 30px -1px;
+    }
+
+    .Learn{
+            margin-right: 57px;
+    }
+}
